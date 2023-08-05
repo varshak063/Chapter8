@@ -86,10 +86,8 @@ button {
   justify-content: center;
   margin: 0;
   padding: 0;
- 
- 
 }
-.menuPrice{
+.menuPrice {
   color: orange;
 }
 .menuitems li {
@@ -109,4 +107,25 @@ button {
   max-width: 800px;
   min-height: 800px;
   margin: 20px auto 0;
+}
+
+.userscard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.userscard img {
+  width: 50px;
+}
+.usercardinfo {
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  border: 1px solid #b8b8b8;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

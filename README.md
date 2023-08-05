@@ -1,12 +1,10 @@
-Routing
+Class based components
 
-useEffect will be called after every render of that component.
-every time componennt render useeffect will be called.
-// if no dependency array useEffect called every time component renders
-//If empty dependency array present useEffect called on initial render and just once.
-// If something added in dependency array =[somename]=>useEffect called when dependency changes
+older way of creating components
 
-2Types of Routing
+life cycle of class component
+2 phase
+1)Render Phase : Constructor and render method is called
+=> once the DOM is Updated then 2nd phase is called
 
-1)client side Routing:not make network call
-2)server side Routing:make network call and the page coming from server 
+2.  COmmit Phase WHere componentDidMount will be called
